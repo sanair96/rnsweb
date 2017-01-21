@@ -1,0 +1,65 @@
+.bg{
+  background-image: url("../images/bg1.png");
+  background-size: cover;
+}
+.gradient{
+
+background: linear-gradient(270deg, #26a69a, #0277bd);
+background-size: 400% 400%;
+-webkit-animation: AnimationName 11s ease infinite;
+-moz-animation: AnimationName 11s ease infinite;
+-o-animation: AnimationName 11s ease infinite;
+animation: AnimationName 11s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+.fwhite{
+  color: white;
+  font-weight: 100;
+}
+.marg{
+  margin-bottom: 30px;
+}
+.navul{
+  padding-top: 10px;
+  text-decoration: none;
+  color: white;
+  display: inline;
+}
+.navli{
+  display: inline;
+}
+.nava{
+  padding:10px;
+  color: white;
+  font-family: 'Roboto' ,sans-serif;
+  font-weight: 400;
+  
+} .slider{   margin-top: 00px; 
+  } @media only screen and (max-width: 600) {
+.slider{     height: 600;   } 
+}
+.text{
+  background-color: white;
+}
+.justify{   text-align: justify; 
+
+}
